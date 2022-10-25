@@ -17,7 +17,6 @@ MonoBehaviour:
     - RequiredObjectCount: 10
     - RequiredObjectCount: 12
     - RequiredObjectCount: 14
-  - PoolList:
-    - RequiredObjectCount: 10
-    - RequiredObjectCount: 12
-    - RequiredObjectCount: 14
+  - PoolList: []
+  - PoolList: []
+  - PoolList: []
