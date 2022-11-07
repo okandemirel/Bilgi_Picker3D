@@ -1,3 +1,4 @@
+using Enums;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,8 +16,8 @@ public class CoreGameSignals : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        Instance = this;
 
+        Instance = this;
     }
 
     #endregion
@@ -29,5 +30,4 @@ public class CoreGameSignals : MonoBehaviour
     public UnityAction onNextLevel = delegate { };
     public UnityAction onRestartLevel = delegate { };
     public UnityAction onReset = delegate { };
-
 }
