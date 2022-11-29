@@ -7,12 +7,10 @@ namespace Commands
     {
         private readonly Transform _levelHolder;
 
-
         public OnLevelDestroyerCommand(Transform levelHolder)
         {
             _levelHolder = levelHolder;
         }
-
 
         public void Execute()
         {

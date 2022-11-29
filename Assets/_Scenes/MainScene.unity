@@ -452,6 +452,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1488715373}
   - component: {fileID: 1488715374}
+  - component: {fileID: 1488715376}
+  - component: {fileID: 1488715375}
   m_Layer: 0
   m_Name: UIRoot
   m_TagString: Untagged
@@ -485,6 +487,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d83a301ce44068540b2cc0485a6fab02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1488715375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488715372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceddf3f088634eaebdcaae6b44c2f066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1488715376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488715372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0515ec22714646519d5c135692e6e2c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1542449794
@@ -889,7 +915,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
