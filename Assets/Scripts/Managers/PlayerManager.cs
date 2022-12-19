@@ -4,7 +4,6 @@ using Data.ValueObjects;
 using Keys;
 using Signals;
 using Sirenix.OdinInspector;
-using System;
 using UnityEngine;
 
 namespace Managers
@@ -91,6 +90,7 @@ namespace Managers
         {
             movementController.IsReadyToMove(true);
         }
+
         private void OnInputDragged(HorizontalnputParams inputParams)
         {
             movementController.UpdateInputParams(inputParams);
@@ -105,6 +105,7 @@ namespace Managers
         {
             movementController.IsReadyToPlay(false);
         }
+
         private void OnLevelFailed()
         {
             movementController.IsReadyToPlay(false);
@@ -114,6 +115,7 @@ namespace Managers
         {
             movementController.IsReadyToPlay(false);
         }
+
         private void OnStageAreaSuccessful()
         {
             movementController.IsReadyToPlay(true);

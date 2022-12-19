@@ -32,7 +32,11 @@ MonoBehaviour:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
     - Cinemachine
+    - NonConvexColliderRuntimeAPI
+    - NonConvexCollider
+    - RuntimeTestAssembly
     - Sirenix.OdinInspector.Modules.UnityMathematics
+    - NonConvexEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
