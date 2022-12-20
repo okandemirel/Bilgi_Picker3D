@@ -12,6 +12,12 @@ namespace Managers
     {
         #region Self Variables
 
+        #region Public Variables
+
+        public byte StageValue = 0;
+
+        #endregion
+
         #region Serialized Variables
 
         [SerializeField] private PlayerMovementController movementController;
@@ -116,13 +122,15 @@ namespace Managers
             movementController.IsReadyToPlay(false);
         }
 
-        private void OnStageAreaSuccessful()
+        private void OnStageAreaSuccessful(int value)
         {
+            StageValue = (byte)++value;
             movementController.IsReadyToPlay(true);
         }
 
         private void OnReset()
         {
+            StageValue = 0;
             movementController.OnReset();
             meshController.OnReset();
             physicsController.OnReset();
