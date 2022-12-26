@@ -16,6 +16,6 @@ MonoBehaviour:
     MovementData:
       ForwardSpeed: 10
       SidewaysSpeed: 7
-      ForwardForceCounter: 10
+      ForwardForceCounter: 3.15
     ScaleData:
       ScaleCounter: 1.2
