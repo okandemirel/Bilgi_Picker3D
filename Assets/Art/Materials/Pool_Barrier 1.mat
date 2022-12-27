@@ -316,7 +316,7 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 0.7924528, g: 0.7694893, b: 0.29530078, a: 1}
+    - _AlbedoColor: {r: 0.5660378, g: 0.21626917, b: 0.2944182, a: 1}
     - _BaseColor: {r: 0.7924528, g: 0.7694893, b: 0.2953008, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}

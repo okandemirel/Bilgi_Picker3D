@@ -135,10 +135,11 @@ namespace Managers
 
         private void OnStageAreaSuccessful(int value)
         {
-            StageValue = (byte) ++value;
+            StageValue = (byte)++value;
             movementController.IsReadyToPlay(true);
             meshController.ScaleUpPlayer();
             meshController.ShowUpText();
+            meshController.PlayConfetiParticle();
         }
 
         private void OnFinishAreaEntered()

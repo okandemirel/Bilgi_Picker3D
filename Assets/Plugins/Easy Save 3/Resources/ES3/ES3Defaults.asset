@@ -31,19 +31,19 @@ MonoBehaviour:
     assemblyNames:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
+    - Boxophobic.PolyverseSkies.Runtime
     - Cinemachine
-    - RuntimeTestAssembly
-    - NonConvexCollider
-    - NonConvexColliderRuntimeAPI
-    - sc.stylizedwater2.editor
     - sc.stylizedwater2.runtime
     - Boxophobic.Utils.Scripts
-    - Boxophobic.PolyverseSkies.Runtime
+    - sc.stylizedwater2.editor
+    - RuntimeTestAssembly
+    - NonConvexCollider
     - Boxophobic.PolyverseSkies.Scripts
-    - NonConvexEditor
-    - Sirenix.OdinInspector.Modules.UnityMathematics
+    - NonConvexColliderRuntimeAPI
     - Boxophobic.Utils.Editor
+    - NonConvexEditor
     - Boxophobic.PolyverseSkies.Editor
+    - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
